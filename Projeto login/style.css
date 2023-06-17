@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+    
+}
+.login{
+
+    display: none;
+}
+.login, .register{
+    background-color: transparent;
+    border: 2px solid rgba(133, 133, 133, 0.5);
+    width: 70%;
+    max-width: 500px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(20px);
+}
+
+.login h2, .register{
+    text-align: center;
+    color: white;
+}
+
+.login input[type=text],form input[type=password]{
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    margin: 10px 0;
+    outline: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.login input[type=submit]{
+    background-color: #FB3467;
+    color: whitesmoke;
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+}
+
+
+
+/*registro*/
+.register input[type=text], .register input[type=password]{
+    width: 90%;
+    height: 45px;
+    padding-left: 10px;
+    margin: 10px 0;
+    outline: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid;
+}
+.register input[type=submit]{
+    background-color: #FB3467;
+    color: whitesmoke;
+    width: 100%;
+    height: 45px;
+    padding-left: 10px;
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+}
+
+.register label {
+   
+    padding-left: 5px;
+    padding-right: 40%;
+    display: inline-block;
+    color: white;
+}
+
+.register p,a{
+    text-align: center;
+    color: whitesmoke;
+}
